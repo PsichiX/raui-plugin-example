@@ -1,0 +1,11 @@
+[package]
+name = "raui-plugin-example"
+version = "0.1.0"
+authors = ["Patryk 'PsichiX' Budzynski <patryk.budzynski@simteract.com>"]
+
+[lib]
+name = "raui_plugin_example"
+crate-type = ["cdylib"]
+
+[dependencies.raui]
+path = "../raui"
